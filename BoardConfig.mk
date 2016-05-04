@@ -78,5 +78,10 @@ TW_INCLUDE_CRYPTO := true
 #TWRP_INCLUDE_LOGCAT := true
 #TARGET_USES_LOGD := true
 
+# Init properties from bootloader version, ex. model info
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_exynos
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/nobleltezt/init/init_nobleltezt.cpp
+
 # Asian region language support
 TW_EXTRA_LANGUAGES := true
