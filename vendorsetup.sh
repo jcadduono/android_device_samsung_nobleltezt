@@ -1,2 +1,1 @@
 add_lunch_combo omni_nobleltezt-eng
-add_lunch_combo omni_nobleltezt-userdebug

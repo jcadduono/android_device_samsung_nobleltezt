@@ -11,5 +11,12 @@ Add to `.repo/local_manifests/nobleltezt.xml`:
 
 Then run `repo sync` to check it out.
 
-Kernel sources are available at: https://github.com/jcadduono/nethunter_kernel_noblelte/tree/twrp-6.0
+To build:
 
+```sh
+. build/envsetup.sh
+lunch omni_nobleltezt-eng
+make -j5 recoveryimage
+```
+
+Kernel sources are available at: https://github.com/jcadduono/android_kernel_samsung_universal7420/tree/twrp-6.0
